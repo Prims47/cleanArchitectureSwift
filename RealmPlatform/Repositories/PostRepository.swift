@@ -10,5 +10,5 @@ import Foundation
 import RealmSwift
 import Domain
 
-final class PostRepository: AbstractRepository<Domain.Post> {
+final class PostRepository<Repository> where Repository: AbstractRepositoryProtocol, Repository.T == Domain.Post {
 }
