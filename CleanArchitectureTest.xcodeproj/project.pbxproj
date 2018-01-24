@@ -31,7 +31,6 @@
 		11EFD208201795AC00DB8EED /* NetworkPlatform.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 11EFD200201795AC00DB8EED /* NetworkPlatform.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		11EFD20E201796DC00DB8EED /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFD20D201796DC00DB8EED /* Post.swift */; };
 		11EFD211201797E000DB8EED /* PostsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFD210201797E000DB8EED /* PostsUseCase.swift */; };
-		11EFD2142017982E00DB8EED /* PostRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFD2132017982E00DB8EED /* PostRepository.swift */; };
 		11EFD21620179CFA00DB8EED /* AbstractRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFD21520179CFA00DB8EED /* AbstractRepository.swift */; };
 		234D8A474D960D1702DA3DA5 /* Pods_CleanArchitectureTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C452541BE73E6973FD7C2E /* Pods_CleanArchitectureTest.framework */; };
 		4C34AD21668FFBCDEDF033BA /* Pods_Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CBA9881E0015318F6A348A /* Pods_Domain.framework */; };
@@ -113,7 +112,6 @@
 		11EFD203201795AC00DB8EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11EFD20D201796DC00DB8EED /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		11EFD210201797E000DB8EED /* PostsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsUseCase.swift; sourceTree = "<group>"; };
-		11EFD2132017982E00DB8EED /* PostRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRepository.swift; sourceTree = "<group>"; };
 		11EFD21520179CFA00DB8EED /* AbstractRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractRepository.swift; sourceTree = "<group>"; };
 		1907BB1971422B7D977FEDF1 /* Pods-CleanArchitectureTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanArchitectureTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleanArchitectureTest/Pods-CleanArchitectureTest.release.xcconfig"; sourceTree = "<group>"; };
 		28A85DCFBC2689C6C6FAB40C /* Pods-Domain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Domain/Pods-Domain.debug.xcconfig"; sourceTree = "<group>"; };
@@ -326,7 +324,6 @@
 		11EFD212201797F100DB8EED /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-				11EFD2132017982E00DB8EED /* PostRepository.swift */,
 				11EFD21520179CFA00DB8EED /* AbstractRepository.swift */,
 			);
 			path = Repositories;
@@ -856,7 +853,6 @@
 				11D2EF6C2017D369004F153E /* RealmRepresentable.swift in Sources */,
 				11EFD20E201796DC00DB8EED /* Post.swift in Sources */,
 				11EFD211201797E000DB8EED /* PostsUseCase.swift in Sources */,
-				11EFD2142017982E00DB8EED /* PostRepository.swift in Sources */,
 				11D2EF6A2017BB11004F153E /* DomainConvertibleType.swift in Sources */,
 				11EFD21620179CFA00DB8EED /* AbstractRepository.swift in Sources */,
 			);

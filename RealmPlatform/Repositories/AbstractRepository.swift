@@ -16,7 +16,7 @@ protocol AbstractRepositoryProtocol {
     func save(entity: T)
 }
 
-final class AbstractRepository<T: RealmRepresentable>: AbstractRepositoryProtocol where T.RealmType: Object,
+struct AbstractRepository<T: RealmRepresentable>: AbstractRepositoryProtocol where T.RealmType: Object,
                          T == T.RealmType.DomainType {
     let realm: Realm?
 
