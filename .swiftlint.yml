@@ -1,0 +1,10 @@
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods
+disabled_rules:
+    force_try
+line_length: 120
+file_length:
+  warning: 500
+  error: 1200
+type_name:
+  min_length: 1
