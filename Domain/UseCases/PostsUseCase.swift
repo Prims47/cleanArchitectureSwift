@@ -13,5 +13,5 @@ public protocol PostsUseCase {
     typealias FailureCompletion = (NSError) -> Void
 
     func posts() -> [Post]?
-    //func save(post: Post, success: @escaping SuccessCompletion, failure: @escaping FailureCompletion)
+    func save(post: Post, success: @escaping SuccessCompletion)
 }
